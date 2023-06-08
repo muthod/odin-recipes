@@ -1,0 +1,34 @@
+:root {
+    --main-bg-color: #ffffff;
+    --primary-color: #ae639e;
+    --secondary-color: #f0b084;
+    --error-color: #9e5860;
+    --on-bg-color: #000000;
+    --on-primary-color: #000000;
+    --on-secondary-color: #000000;
+    --on-error-color: #ffffff;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--on-bg-color);
+}
+
+h1 {
+    background-color: var(--primary-color);
+    color: var(--on-primary-color);
+    font-weight: bolder;
+    font-size: 64px;
+    text-align: center;
+}
+
+h2 {
+    background-color: var(--secondary-color);
+    color: var(--on-secondary-color);
+    font-size: 32px;
+}
+
+li {
+    font-size: 24px;
+}
